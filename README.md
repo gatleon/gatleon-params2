@@ -18,7 +18,7 @@ $ bundle install
 
 Add to your application_controller.rb
 
-```
+```ruby
 class ApplicationController < ActionController::Base
   include Gatleon::Params2
   ...
@@ -27,7 +27,6 @@ class ApplicationController < ActionController::Base
     params2 # access params2 (query and post params from request - but without action, controller keys.)
   end
 end
-
 ```
 
 ## License
