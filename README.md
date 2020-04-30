@@ -4,7 +4,7 @@
 
 remove action and controller from your rails params
 
-## Installation
+## installation
 
 add this line to your application's Gemfile:
 
@@ -31,6 +31,6 @@ class ApplicationController < ActionController::Base
 end
 ```
 
-## License
+## license
 
 the gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
